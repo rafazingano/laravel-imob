@@ -1,0 +1,35 @@
+{
+    "name": "confrariaweb/laravel-imob",
+    "version": "dev-master",
+    "description": "Pacote para imobiliarias em laravel",
+    "keywords": [
+        "imob",
+        "framework",
+        "laravel"
+    ],
+    "license": "MIT",
+    "type": "package",
+    "authors": [
+        {
+            "name": "Rafael Zingano",
+            "email": "confrariaweb@gmail.com"
+        }
+    ],
+    "require": {
+        "confrariaweb/laravel-user": "dev-master",
+        "confrariaweb/laravel-vendor": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "ConfrariaWeb\\Imob\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ConfrariaWeb\\Imob\\Providers\\ImobServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
