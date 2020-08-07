@@ -16,6 +16,10 @@
         }
     ],
     "require": {
+        "confrariaweb/laravel-landingpage": "dev-master",
+        "confrariaweb/laravel-notification": "dev-master",
+        "confrariaweb/laravel-template": "dev-master",
+        "confrariaweb/laravel-template-admin-default": "dev-master",
         "confrariaweb/laravel-user": "dev-master",
         "confrariaweb/laravel-vendor": "dev-master"
     },

@@ -3,13 +3,18 @@
 namespace ConfrariaWeb\Imob\Providers;
 
 use Illuminate\Support\ServiceProvider;
+use ConfrariaWeb\Imob\Commands\InstallPackage;
 
 class ImobServiceProvider extends ServiceProvider
 {
 
     public function boot()
     {
-        //$this->loadViewsFrom(__DIR__ . '/../Views', 'cwimob');
+        if ($this->app->runningInConsole()) {
+            $this->commands([
+                InstallPackage::class
+            ]);
+        }
     }
 
     public function register()
