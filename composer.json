@@ -18,6 +18,7 @@
     "require": {
         "confrariaweb/laravel-acl": "dev-master",
         "confrariaweb/laravel-financial": "dev-master",
+        "confrariaweb/laravel-site": "dev-master",
         "confrariaweb/laravel-template-dashboard-argon": "dev-master",
         "confrariaweb/laravel-user": "dev-master",
         "confrariaweb/laravel-vendor": "dev-master"
